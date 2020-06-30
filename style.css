@@ -47,3 +47,21 @@ section{
 #second-section{
     height: 700px;
 }
+#work-header{
+    text-align: center;
+}
+.work-section{
+    float: left;
+    display: inline-block;
+    margin: 50px;
+    margin-left: 100px;
+}
+.work-section img{
+    width: 30%;
+    padding: 10px;
+}
+.latest-work{
+    background-image: url("personal-website/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
