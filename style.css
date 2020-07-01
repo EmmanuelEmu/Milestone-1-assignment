@@ -6,15 +6,18 @@ h1{
     font-weight: 900;
     font-size: 35px;
 }
+h3{
+    color: orange;
+}
 p{
     padding: 20px 0;
     color: lightslategray;
 }
 section{
     height: 600px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
-.upper-section{
+.intro-section{
     background-image: url("personal-website/header-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,12 +42,10 @@ section{
 .text-padding{
     margin-top: 15%;
 }
-.middle-section{
+.biography-section{
     background-image: url("personal-website/biography-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-}
-#second-section{
     height: 700px;
 }
 #work-header{
@@ -64,4 +65,65 @@ section{
     background-image: url("personal-website/latest-work-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height:400px;
+}
+.learned-so-far{
+    background-image: url("personal-website/learn-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#learned{
+    text-align: center;
+    padding-top: 20px;
+}
+.learned-topic{
+    width: 20%;
+    float: left;
+    padding-left: 60px;
+    padding-right: 55px;
+    box-shadow: 10px 10px 20px lightslategray;
+    height: 400px;
+}
+.learned-main-div{
+    margin-left: 80px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+#footer-header{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.footer-section{
+    background-image: url("personal-website/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.footer-paragraph{
+    text-align: center;
+}
+#footer-bruce{
+    color: black;
+    font-weight: bold;
+}
+#footer-lorem{
+    color: black;
+    font-weight: 800;
+}
+#footer-email{
+    text-decoration: none;
+    background-color: lightseagreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:white;
+    background-image: linear-gradient(45deg,lightseagreen,lightslategray);
+    width: 40%;
+    height: 80px;
+    margin:30px auto;
+    padding-top: 30px;
+
+}
+#email-id{
+    font-size: 21px;
 }
